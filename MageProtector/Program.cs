@@ -6,7 +6,8 @@ namespace MageProtector
     {
         static void Main(string[] args)
         {
-            //updated
+            //updated 
+            Introduction intro = new Introduction();
         }
     }
 }

@@ -6,7 +6,7 @@ namespace MageProtector
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //updated
         }
     }
 }

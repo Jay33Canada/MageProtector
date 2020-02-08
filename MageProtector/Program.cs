@@ -8,6 +8,14 @@ namespace MageProtector
         {
             //updated 
             Introduction intro = new Introduction();
+            PlayerMage Player = new PlayerMage();
+            EnemyMage EasyEnemy = new EnemyMage();
+            Fight(Player, EasyEnemy);
+        }
+        static void Fight(PlayerMage player, EnemyMage enemy)
+        {
+            player.DisplayAttributes();
+            enemy.DisplayAttributes();
         }
     }
 }

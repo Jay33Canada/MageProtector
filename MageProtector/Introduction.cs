@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Timers;
 
 namespace MageProtector
 {
@@ -43,7 +44,6 @@ namespace MageProtector
                         Console.Clear();
                         Console.WriteLine("Let's get right to it then!\n\n\n\n..Hit enter to continue..");
                         Console.ReadLine();
-
                         properStringEntered = true;
                     }
                     else
